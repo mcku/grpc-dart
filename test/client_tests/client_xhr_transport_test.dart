@@ -15,7 +15,6 @@
 @TestOn('browser')
 
 import 'dart:async';
-import 'dart:html';
 
 import 'package:async/async.dart';
 import 'package:grpc/src/client/call.dart';
@@ -25,6 +24,7 @@ import 'package:grpc/src/shared/status.dart';
 import 'package:mockito/mockito.dart';
 import 'package:stream_transform/stream_transform.dart';
 import 'package:test/test.dart';
+import 'package:universal_html/html.dart';
 
 final readyStateChangeEvent =
     Event('readystatechange', canBubble: false, cancelable: false);

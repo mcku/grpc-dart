@@ -14,7 +14,7 @@
 // limitations under the License.
 
 import 'dart:async';
-import 'dart:html';
+import 'package:universal_html/html.dart';
 import 'dart:typed_data';
 
 import 'package:meta/meta.dart';
